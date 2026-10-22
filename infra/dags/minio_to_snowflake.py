@@ -13,7 +13,7 @@ LOCAL_DIR = "/tmp/minio_downloads"  # use absolute path for Airflow
 
 SNOWFLAKE_USER = "test"
 SNOWFLAKE_PASSWORD = "test"
-SNOWFLAKE_ACCOUNT = "oc99210.ap-southeast-7.aws"
+SNOWFLAKE_ACCOUNT = "test"
 SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
 SNOWFLAKE_DB = "STOCKS_MDS"
 SNOWFLAKE_SCHEMA = "COMMON"
