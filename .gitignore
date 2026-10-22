@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# dbt build & logs
+dbt_stocks/target/
+dbt_stocks/logs/
+dbt_stocks/dbt_packages/
+logs/
+
+# Sensitive Data / Secrets
+.env
+*.pem
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
