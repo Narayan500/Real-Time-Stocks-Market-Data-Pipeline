@@ -6,13 +6,13 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
 MINIO_ENDPOINT = "http://minio:9000"
-MINIO_ACCESS_KEY = "admin"
-MINIO_SECRET_KEY = "password123"
+MINIO_ACCESS_KEY = "admsin"
+MINIO_SECRET_KEY = "passwsord123"
 BUCKET = "bronze-transactions"
 LOCAL_DIR = "/tmp/minio_downloads"  # use absolute path for Airflow
 
-SNOWFLAKE_USER = "NARAYANBHANDARI"
-SNOWFLAKE_PASSWORD = "Narayan@58747699"
+SNOWFLAKE_USER = "test"
+SNOWFLAKE_PASSWORD = "test"
 SNOWFLAKE_ACCOUNT = "oc99210.ap-southeast-7.aws"
 SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
 SNOWFLAKE_DB = "STOCKS_MDS"
