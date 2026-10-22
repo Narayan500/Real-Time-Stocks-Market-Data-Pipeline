@@ -8,8 +8,8 @@ from kafka import KafkaConsumer
 s3 = boto3.client(
     "s3",
     endpoint_url="http://localhost:9002",
-    aws_access_key_id="admin",
-    aws_secret_access_key="password123"
+    aws_access_key_id="admin111",
+    aws_secret_access_key="passwssord1ss23"
 )
 
 bucket_name = "bronze-transactions"
