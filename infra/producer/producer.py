@@ -4,7 +4,7 @@ import requests
 from kafka import KafkaProducer
 
 #Define variables for API
-API_KEY="dbb477hr01qrv06oaoggdbb477hr01qsedfghjkjhfxdcvbnbvmchfgnvbjnbjhvgcvhbvhcgvhgvhhrv06oaoh0"
+API_KEY="test1"
 BASE_URL = "https://finnhub.io/api/v1/quote"
 SYMBOLS = ["AAPL", "MSFT", "TSLA", "GOOGL", "AMZN"]
 
