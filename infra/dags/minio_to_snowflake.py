@@ -7,14 +7,14 @@ from datetime import datetime, timedelta
 
 MINIO_ENDPOINT = "http://minio:9000"
 MINIO_ACCESS_KEY = "admsin"
-MINIO_SECRET_KEY = "passwsord123"
+MINIO_SECRET_KEY = "test"
 BUCKET = "bronze-transactions"
 LOCAL_DIR = "/tmp/minio_downloads"  # use absolute path for Airflow
 
 SNOWFLAKE_USER = "test"
 SNOWFLAKE_PASSWORD = "test"
 SNOWFLAKE_ACCOUNT = "test"
-SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
+SNOWFLAKE_WAREHOUSE = "test_WH"
 SNOWFLAKE_DB = "STOCKS_MDS"
 SNOWFLAKE_SCHEMA = "COMMON"
 
